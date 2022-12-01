@@ -26,7 +26,7 @@ class TestMyCLI(unittest.TestCase):
         """ final statement """
         try:
             os.remove("file.json")
-        except:
+        except IOError:
             pass
 
     def setUp(self):

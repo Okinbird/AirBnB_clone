@@ -31,7 +31,7 @@ class TestBase(unittest.TestCase):
         del cls.ins
         try:
             os.remove("file.json")
-        except:
+        except IOError:
             pass
 
     def test_Userdoc(self):
@@ -57,6 +57,7 @@ class TestBase(unittest.TestCase):
 
     def test_isinstance(self):
         self.assertTrue(isinstance(self.ins, Place))
+
 
 if __name__ == '__main__':
     unittest.main()
