@@ -1,7 +1,7 @@
 ##  0x00. AirBnB clone - The console
 
 
-![Air_01]
+![Air_01](https://github.com/Okinbird/AirBnB_clone/blob/master/images/Air_01.png)
 
 **PROJECT DESCRIPTION**
 **First step: Write a command interpreter to manage your AirBnB objects.**
@@ -70,7 +70,7 @@ $
 
 All tests should also pass in non-interactive mode: `$ echo "python3 -m unittest discover tests" | bash`
 
-![Air_02]
+![Air_02](https://github.com/Okinbird/AirBnB_clone/blob/master/images/Air_02.png)
 
 
 
