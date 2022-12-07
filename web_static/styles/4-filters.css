@@ -15,10 +15,11 @@ section.filters {
   display: flex;
   justify-content: center;
   width: 20%;
+  right: 30px;
+  top: 11px;
   border-radius: 4px;
   border: none;
-  margin: 12px 30px;
 }
 .filters button:hover {
-    background--color: rgba(255, 90, 95, .9);
+    opacity: 0.9;
 }
